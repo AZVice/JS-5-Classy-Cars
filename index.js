@@ -10,7 +10,6 @@ class Vehicle{
 class Truck extends Vehicle{
     constructor(model, towinCapacity){
         super(model)
-        this.model= model
         this.towinCapacity = towinCapacity
     }
     drive(){
@@ -26,7 +25,6 @@ let truckTest = new Truck("superChicken", 9000)
 class Sedan extends Vehicle{
     constructor( model, blackUpCamera){
         super(model)
-        this.model = model
         this.blackUpCamera = blackUpCamera
     }
 }
